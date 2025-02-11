@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: k8s-demo-app
-        image: ghcr.io/allensallinger/k8s-demo-app:latest
+        image: ghcr.io/allensallinger/k8s-demo-app:master
         env:
         - name: K8S_DEMO_APP_MESSAGE
-          value: "Hello FOOs!"
+          value: 'Standard Message'
         livenessProbe:
           httpGet:
             path: /healthz
