@@ -16,4 +16,4 @@ patches:
         path: /spec/template/spec/containers/0/env/0
         value:
           name: K8S_DEMO_APP_MESSAGE
-          value: "Allen's Message"
+          value: "Allen's Changed Message"
