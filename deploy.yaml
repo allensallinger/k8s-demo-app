@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo-app
-        image: quay.io/stepanstipl/k8s-demo-app:latest
+        image: ghcr.io/allensallinger/k8s-demo-app:latest
         env:
         - name: K8S_DEMO_APP_MESSAGE
           value: "Hello FOOs!"
